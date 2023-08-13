@@ -29,10 +29,10 @@ def color(val):
 def load_data():
     # Loading CSV Files
     
-    met_vid = pd.read_csv('Aggregated_Metrics_By_Video.csv').iloc[1:,:]
-    met_con_sub = pd.read_csv('Aggregated_Metrics_By_Country_And_Subscriber_Status.csv')
-    com_all = pd.read_csv('All_Comments_Final.csv')
-    vid_per = pd.read_csv('Video_Performance_Over_Time.csv')
+    met_vid = pd.read_csv('Dataset/Aggregated_Metrics_By_Video.csv').iloc[1:,:]
+    met_con_sub = pd.read_csv('Dataset/Aggregated_Metrics_By_Country_And_Subscriber_Status.csv')
+    com_all = pd.read_csv('Dataset/All_Comments_Final.csv')
+    vid_per = pd.read_csv('Dataset/Video_Performance_Over_Time.csv')
     
     # Cleaning CSV Files
     
